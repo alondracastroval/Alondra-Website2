@@ -1,2 +1,3 @@
 # Alondra-Website
+INCLUDES WEBSITE FILES AND ALSO PD3 (JAVASCRIPT AND HTML FILES)
 Deploying my website for my HW03.
