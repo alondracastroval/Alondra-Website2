@@ -1,0 +1,70 @@
+/*changing the background color of my pages
+*/
+body {
+    background-color: #cde3f6;
+}
+
+
+/*
+i am going to center my title by using text-align on the h1 tag */
+
+
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color:#3a5391 ;
+}
+
+
+
+
+/* center aligning the class where i had all the elements of my homepage*/
+.everything{
+  text-align: center; 
+}
+
+
+li{
+    font-size: 20px;
+}
+
+
+/*
+using css flex xontainers to help put my contents horizontally */
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gameslist h2{
+    text-align: center;
+}
+
+.gameslist p{
+    font-size: 17px;
+}
+
+button {
+    display: block;
+    margin : auto;
+}
+
+
+
+.musiclist h2{
+    text-align: center;
+}
+.musiclist p{
+    font-size: 17px;
+}
+
+.projects h2{
+    text-align: center;
+}
+
+.projects p{
+    font-size: 17px;
+}

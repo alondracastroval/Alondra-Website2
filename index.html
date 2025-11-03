@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alondra Castro's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- adding the main title to my website-->
+    <h1> 
+        Welcome! This is Alondra's Website :D 
+    </h1>
+
+<div class = "everything">
+
+<!--- im going to make a section that is right-aligned with my contact info-->
+
+
+    <h2 style = 'color: rgb(26, 25, 25)' font-size = 20px > 
+        Contact me: </h2>
+
+<!---making a list that has my socials-->
+    <li> <b>Github: </b> 
+        <a href = "https://github.com/alondracastroval" style = "color: orange"> My Github profile </a>
+    </li>
+    <li> <b>Email: </b> 
+        <a href = "mailto:castro-valadez.a@northeastern.edu" style = "color: darkcyan"> castro-valadez.a@northeastern.edu </a>
+     </li>
+        
+
+
+<!---now i am going to add the small description about me-->  
+    <h2 style = 'color: rgb(13, 13, 14)' font-size = 20px > 
+     About me:  </h2>
+
+    
+    <p style = 'font-size: 20px;'>
+        
+        Hi there! My name is Alondra Castro-Valadez and I am currently <br>
+        a 4th year Computer Science and Marketing Analytics major at Northeastern.
+        <br> I am originally from Houston, Texas and correspondingly, a huge Houston <br>
+        sports fan. My favorite teams are the Texans, and the Rockets, but I also love  <br>
+        the red sox. Academically, my interests and passion rely on the intersection between <br>
+        computer science and business. I have also come to become very interested in <br>
+        data science and how it applies to business scenarios. Additionally, I enjoy using  <br>
+        my acquired knowledge and relate it to my interests. For instance, I love using data <br>
+        to make predictions on sports data. 
+        <br> <br>
+	    Outside of school, I really enjoy playing video games. <br>
+        My favorite video games of all time are Red Dead Redemption, Rise of the Tomb Raider, <br>
+        and Assassin's Creed Syndicate. Currently, I am playing Ghost of Yotei and Death Stranding 2. <br>
+        I recently switched to a ps5 after being an xbox gamer, so I am enjoying playing all of the playstation<br>
+         exclusives. Additionally, I really enjoy listening to music! I love putting together Spotify playlists <br>
+        that correspond to different moods, genres, and seasons. Most of the time I am listening to <br>
+        music and have my headphones on at all times.
+
+    </p>
+
+
+    <img src ="https://scientificgamer.com/blog/wp-content/uploads/2015/12/rise_vista.jpg"
+    alt = "" width = 600>
+
+    <p> This a picture from one Rise of the Tomb Raider, my favorite game of all time!</p>
+
+    </div>
+
+ <!--- going to add a button to go to my second page-->
+    <button id = 'navigateButton' style = "font-size: larger; color: green;">
+    See more about my interests!</button>
+    <script>
+    const newpageButton = document.getElementById('navigateButton');
+    navigateButton.addEventListener('click', function() {
+        window.location.href = 'secondpage.html';
+    });
+     
+</script>
+
+
+
+</body>
+
+
+
+

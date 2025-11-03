@@ -1,2 +1,2 @@
-# Alondra-Website2
-deploying website for hw03
+# Alondra-Website
+Deploying my website for my HW03.

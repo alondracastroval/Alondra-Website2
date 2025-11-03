@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page of my Website!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- adding the main title to my website-->
+    <h1> 
+        More Details About My Interests!
+    </h1>
+
+ <!--- going to add a button to go to return to the home page-->
+    <button id = 'navigateButton' style = "font-size: larger; color: blue;">
+    Homepage</button>
+    <script>
+    const newpageButton = document.getElementById('navigateButton');
+    navigateButton.addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+     
+</script>
+
+
+<!---USING a flexbox to write my stuff horizontally-->   
+<div class = "flex-container">
+
+<!--- then i am going to create sections gooing a little deeper about my interests-->
+ <div class = "gameslist">
+    <!-- video game section-->
+  <h2 style = 'color: blueviolet; font-size: 30px' > My Favorite Games</h2>
+
+  <img src ="https://i.redd.it/neyl0yyuq8v71.jpg"
+    alt = "" width = 400>
+
+  <ul>
+    <li>Rise of the Tomb Raider</li>
+    <li>Ghost of Tsushima</li>
+    <li>Red Dead Redemption 2</li>
+    <li>Assasin's Creed: Syndicate</li>
+    </ul> 
+
+    <p>
+        I deeply enjoy video games that have a strong focus in the storyline of the game.<br>
+         Death stranding 2, Ghost of Tsushima, and Red Redemption 2 have amazing stories <br>
+         that allow the game to excel beyond the gameplay aspects of the game. Additionally, <br>
+         they all have beautiful open worlds that shine with the complexity of the graphics.<br>
+          With amazing technical aspect, great gameplay mechanics, and memorable storylines <br>
+          these games stand out to me as a very picky gamer.
+
+    </p>
+   </div>
+
+
+
+<div class = "musiclist">
+    <!-- music section -------------------->
+ <h2 style = 'color: blueviolet; font-size: 30px' > My Favorite Music</h2>
+ <img src ="https://images.genius.com/885ec544238ef6c1b7387eb639196819.1000x1000x1.png"
+    alt = "" width = 290
+    >
+<ul>
+    <li>PARTYNEXTDOOR</li>
+    <li>Steve Lacy</li>
+    <li>Tyler, the Creator</li>
+    <li>Summer Walker</li>
+</ul>
+
+<p>
+
+My favorite music genres are: RNB, indie music, and corridos. Although, I do find myself <br>
+listening to other genres often and I am always open to branch out to new artists. I love <br> 
+making playlists to fit a certain mood that I am currently feeling or just organizing music <br>
+that I like to listen to when doing a certain task. For instance, I have a cleaning playlist, <br>
+a homework playlist, and a running playlist. I believe its super fun to play around with <br>
+playlists and I enjoy it alot as a form of self expression!
+</p>
+   </div>
+
+
+<!-- Academics Section-->
+<div class = "projects">
+ <h2 style = 'color: blueviolet; font-size: 30px' > My Favorite Classes</h2>
+  <img src ="https://news.northeastern.edu/wp-content/uploads/2020/03/campus_update_09.jpg"
+    alt = "" width = 390>
+ <ul>
+    <li>Foundations of Data Science</li>
+    <li>Mathematics of Data Models</li>
+    <li>Quantitaive Models of Consumer Analysis</li>
+    <li>Introduction to Marketing</li>
+ </ul>
+
+ <p>
+    The favorite part about my academic experience is that I’ve had the opportunity to mix<br> 
+    my interests of Data and Marketing. My favorite courses have allowed me to learn all about<br> 
+    data and how we can use it in real life business scenarios. In my Foundations of Data Science<br> 
+    class I got to make a football prediction model with machine learning which was super cool and <br> 
+    one of my favorite academic projects!
+ </p>
+   </div>
+
+
+</div>
+
+
+</body>
+
+
