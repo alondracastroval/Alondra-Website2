@@ -1,8 +1,8 @@
 
-hyper link of my website: https://alondracastroval.github.io/Alondra-Website/
+hyper link of my website: https://alondracastroval.github.io/Alondra-Website2/
 
 modifications I made:
 - I used a custom font for the title,
 - I changed the color scheme of the background to light blue
-- I also changed the color
+- I also changed the color of the contact links to orange and cyan.
 
